@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: snow;
+        }
+        #AnthroNav_Bar{
+            height:180px;
+            width:100%;
+            position:fixed;
+        }
+        #OfferNav{
+            height:15px;
+            width:98%;
+            text-align: center;
+            color:snow;
+            background-color: darkcyan;
+            font-family: "Avenir Medium", sans-serif;
+            letter-spacing: .06rem;
+            font-size: 12px;
+            padding:1%;
+        }
+        #NavDiv_a{
+            display:flex;
+            height:50px;
+            width:100%;
+            background-color: snow;
+            border-bottom:1px solid rgb(219, 219, 219);
+            color:#26262c;
+        }
+        #SiteName{
+            width:65%;
+            font-weight: bold;
+            margin-left:4%;
+            font-size: 20px;
+            font-stretch: wider;
+            letter-spacing: 3px;
+        }
+        #SiteName:hover{
+            cursor: pointer;
+        }
+        #SearchBar{
+            width:18%;
+            height:70%;
+            border:1px solid rgb(219, 219, 219);
+            border-radius: 5px;
+            margin-top: 8px;
+            display:flex;
+        }
+        #searchTxt{
+            width:220px;
+            height:22px;
+            padding:5px;
+            border:0px;
+            font-family: "Avenir Medium", sans-serif;
+            letter-spacing: .06rem;
+            font-size: 12px;
+            margin-left:8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        #iconSearch{
+            width:22px;
+            height:22px;
+            align-items: right;
+            color: darkcyan;
+            font-size: 22px;
+            margin-top: 5px;
+        }
+        #iconSearch:hover{
+            cursor:pointer;
+            color:#26262c;
+            content:'';
+            transition: width 0.1s linear;
+        }
+        #iconNav{
+            width:22px;
+            height:22px;
+            align-items: right;
+            color: darkcyan;
+            font-size: 32px;
+            margin-top: 12px;
+            margin-left: 32px;
+        }
+        #iconNav:hover{
+            cursor:pointer;
+            color:#26262c;
+            content:'';
+            transition: width 0.1s linear;
+        }
+        #NavDiv_b{
+            display:flex;
+            height:30px;
+            width:100%;
+            background-color: snow;
+            color:#26262c;
+            border-bottom:1px solid rgb(219, 219, 219);
+            margin-top: 15px;
+            gap: 20px;
+        }
+        #TagsNav{
+            width:100px;
+            height:28px;
+            text-align: center;
+            letter-spacing: .06rem;
+            color: #26262c;
+            background-position: 50%;
+            font-size: 15px;
+            font-family: "Avenir Medium", sans-serif;
+        }
+        #TagsNav:hover{
+            cursor:pointer;
+            color:darkcyan;
+            content:'';
+            border-bottom:1px solid darkcyan;
+            transition: width 0.1s linear;
+        }
+        #TagsNav1{
+            width:160px;
+            height:28px;
+            text-align: center;
+            letter-spacing: .06rem;
+            color: #26262c;
+            background-position: 50%;
+            font-size: 15px;
+            font-family: "Avenir Medium", sans-serif;
+        }
+        #TagsNav1:hover{
+            cursor:pointer;
+            color:darkcyan;
+            content:'';
+            text-decoration: underline;
+            border-bottom:1px solid darkcyan;
+            transition: width 0.1s linear;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="AnthroNav_Bar">
+        <div id="OfferNav">Sale!  Get additional $50 OFF on minimum purchase of $800 "50ANTHRO"</div>
+        <div id="NavDiv_a">
+            <div id="SiteName" onclick="window.location.href='Landing Page.html'">
+                <p>ANTHROPOLOGIE</p>
+            </div>
+            <div id="SearchBar">
+                <div>
+                    <input id="searchTxt" type="text" placeholder="Search">
+                </div>
+                <div id="iconSearch">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>   
+            </div>
+            <div id="SignIn" onclick="window.location.href='SignUp_Page.html'">
+                <ion-icon id="iconNav" name="person-outline"></ion-icon>
+            </div>
+            <div id="Cart" onclick="window.location.href='CartPage.html'">
+                <ion-icon id="iconNav" name="bag-outline"></ion-icon>
+            </div>
+        </div>
+        <div id="NavDiv_b">
+            <div id="TagsNav" style="margin-left: 2%" onclick="window.location.href='ClothingPage.html'">Clothing</div>
+            <div id="TagsNav" onclick="window.location.href='ShoesPage.html'">Shoes</div>
+            <div id="TagsNav" onclick="window.location.href='AccessoriesPage.html'">Accessories</div>
+            <div id="TagsNav1" onclick="window.location.href='HomeFurn.html'">Home & Furniture</div>
+            <div id="TagsNav1" onclick="window.location.href='Beauty_Well.html'">Beauty & Wellness</div>
+            <div id="TagsNav" onclick="window.location.href='Weddings.html'">Weddings</div>
+            <div id="TagsNav1" onclick="window.location.href='Gifts_Candle.html'">Gifts & Candles</div>
+            <div id="TagsNav" style="width:80px" onclick="window.location.href='Sale.html'">Sale!</div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
