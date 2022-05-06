@@ -478,7 +478,7 @@
         <div id="OfferNav">Sale!  Get additional $50 OFF on minimum purchase of $800 "50ANTHRO"</div>
         <div id="AnthroNav_Bar">
             <div id="NavDiv_a">
-                <div id="SiteName" onclick="window.location.href='Home Page.html'">
+                <div id="SiteName" onclick="window.location.href='index.html'">
                     <p>ANTHROPOLOGIE</p>
                 </div>
                 <div id="SearchBar">
@@ -661,13 +661,13 @@
             for (var i = 0; i < regUser.length; i++) {
                 if (regUser[i].email === email && regUser[i].password === password) {
                     alert("WELCOME BACK! We missed you .");
-                    window.location.href = "Home Page.html";
+                    window.location.href = "index.html";
             return;
             }
             else if (email == "admin@gmail.com" && password == "admin") {
                 alert("SignIn Sucessfully !");
                 //redirect Home page
-                window.location.href = "Home Page.html";
+                window.location.href = "index.html";
                 return;
             }
       }
