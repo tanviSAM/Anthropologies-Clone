@@ -6,7 +6,7 @@
 
 
 <h2> Deployed Link </h2>
-anthropologies-clone.vercel.app
+https://anthropologies-clone.vercel.app/
 
 
 <h2> Technology We Used 💻 </h2>
