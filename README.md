@@ -8,6 +8,23 @@
 <h2> Deployed Link </h2>
 https://anthropologies-clone.vercel.app/
 
+<h2> Snapshots </h2>
+
+![](img/HomePage.JPG)
+
+
+![](img/SignUp.JPG)
+
+
+![](img/Prod01.JPG)
+
+
+![](img/Prod03.JPG)
+
+
+![](img/CartPage.JPG)
+
+
 
 <h2> Technology We Used 💻 </h2>
 
